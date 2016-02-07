@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My First Blog Post
+title: Hello World
 ---
 
-first post
+This is my first post on my new blog.  I'm using the Creative template from Start Bootstrap and converting it into jekyll using a tutorial from jekyll.tips.
