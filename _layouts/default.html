@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="alternate" type="application/rss+xml" title="My Site RSS" href="/feed.xml" />
     <title>
       {% if page.title %}
         {{'Kyle Skinner | ' | append:page.title}}
@@ -13,10 +14,7 @@
         Default Title Page
       {% endif %}
     </title>
-
-
-
-
+    
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
     <!-- Custom Fonts -->
@@ -34,6 +32,8 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+
   <body id="page-top">
     {% include nav.html %}
     {{ content }}
