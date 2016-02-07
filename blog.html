@@ -2,13 +2,24 @@
 layout: default
 title: Blog
 ---
-<section class= "bg-primary" id="blog">
+<section class="bg-primary">
+  <div class="text-center">
+    <h1>Blog</h1>
+  </div>
+</section>
+
+<section>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2 class="section-heading">Ruby on Rails and Web Development Blog</h2>
-        <hr class="light">
-        <p class="text-faded">I'll be documenting issues I come across as I learn more about Ruby and web development.  I'd love to read your comments and hopefully we'll learn more together.</p>
+      <div class="text-center">
+        <ul style="list-style-position: inside">
+           {% for post in site.posts %}
+             <li>
+               <a class="text-primary" href="{{ post.url }}">{{ post.title }}</a>
+               - {{ post.date | date: "%d %B %Y" }}
+             </li>
+           {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
