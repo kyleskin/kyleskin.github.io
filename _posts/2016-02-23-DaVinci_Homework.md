@@ -1,3 +1,12 @@
+---
+layout: post
+title: DaVinci Coders Homework Assignments
+---
+
+###This is a simple table to help me keep track of when my assignments are due.
+
+
+
 | Date Due | Assignment Description |
 |:------:|:--------------------:|
 | 2/12 | Set up Blog |
@@ -12,3 +21,4 @@
 | 2/24 | Watch Git for 4 year olds |
 | 2/24 | Read through Methods and Recursion Slides |
 | 2/26 | Learn Command Line Chapters 10 - 23 |
+| 2/29 | Rubocop Blog Post |
