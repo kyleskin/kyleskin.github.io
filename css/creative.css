@@ -4,10 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- #icon_link {
-   text-decoration: none;
-   color: white;
- }
 
 html,
 body {
@@ -28,6 +24,12 @@ hr {
 
 hr.light {
     border-color: #fff;
+}
+
+i:hover {
+  transform: scale(1.5)
+}
+
 }
 
 a {
