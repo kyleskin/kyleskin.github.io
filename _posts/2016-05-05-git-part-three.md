@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Part Three: Github
+title: Git Part Three - GitHub
 ---
 
 In this post, we'll discuss how to create a repository on GitHub and link it to our local git repository.  By creating a GitHub repo, we're able to have a copy of our work in the cloud and can also collaborate with others.
