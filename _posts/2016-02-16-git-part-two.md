@@ -33,7 +33,7 @@ As you see in the output line, Git started an empty repository.  The repository 
 
 To move our modified file into Git's staging area, we will first check the status of the file with the `git status` command.
 
-{% highlight shell linenos%}
+{% highlight shell %}
 Kyle:blog $ git status
 On branch master
 
@@ -58,7 +58,7 @@ Kyle:blog $ git add Readme.md
 
 Git has now staged our Readme file, so let's check its status again with `git status`.
 
-{% highlight shell linenos %}
+{% highlight shell %}
 Kyle Skinner
 Kyle:blog $ git status
 On branch master
@@ -76,7 +76,7 @@ Changes to be committed:
 
  In order to commit the change to Git's repository, we run `git commit -m "*message*"`.  The message in the command line is a short description of what change we made.
 
- {% highlight shell linenos %}
+ {% highlight shell %}
  Kyle Skinner
 Kyle:blog $ git commit -m "Initial commit and create Readme.md"
 [master (root-commit) 6ddd001] Initial commit and create Readme.md
