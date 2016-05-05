@@ -15,7 +15,7 @@ The url we use will come from GitHub, but follows the format of `git@github.com:
 
 We can check that everything worked properly by running `git remote -v`.  This will tell us any remote repos that are connected to this local repo.  We should see the output:
 
-{% highlight shell}
+{% highlight shell%}
 $git remote -v
 origin git@github.com:*username*/*reponame*.git (fetch)
 origin git@github.com:*username*/*reponame*.git (push)
