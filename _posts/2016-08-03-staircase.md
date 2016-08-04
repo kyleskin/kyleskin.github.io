@@ -38,6 +38,7 @@ def staircase(n)
     string = ''
     string += ' ' * (n - counter)
     string += '#' * counter
+    counter += 1
     puts string
   end
 end
